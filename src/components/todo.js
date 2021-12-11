@@ -13,10 +13,8 @@ const Todo = () => {
     <div>
       <form onSubmit={addHandler}>
         <input
-          type="text"
-          id="inputTodo"
-          name="inputTodo"
-          placeholder="type a task"
+          type="text" id="inputTodo"
+          name="inputTodo" placeholder="type a task"
           onChange={(e) => setInput(e.target.value)}
           value={input}
         />
